@@ -5,7 +5,7 @@ link = input("Insert YouTube URL here: ")
 yt = YouTube (link)
 
 #destination
-destination = "/home/urosh/Videos"
+destination = "/path/of/your/own/choice" #choose where do you want to download the video
 
 #downloading the video
 yt.streams.first().download(output_path=destination)
